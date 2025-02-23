@@ -1,0 +1,30 @@
+<body>
+
+    <header>
+        <h1>🚜 Vehicle Booking for Farmers</h1>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Register Your Vehicle</h2>
+            <form id="registerForm">
+                <input type="text" id="ownerName" placeholder="Owner Name" required>
+                <input type="text" id="vehicleType" placeholder="Vehicle Type" required>
+                <input type="tel" id="phoneNumber" placeholder="Phone Number" required>
+                <button type="submit">Add Vehicle</button>
+            </form>
+        </section>
+
+        <section class="vehicle-list">
+            <h2>Available Vehicles</h2>
+            <ul id="vehicleList">
+                <!-- Vehicle details will be added dynamically here -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- WebRTC Audio for Calls -->
+    <audio id="remoteAudio" autoplay></audio>
+
+    <script src="script.js"></script>
+</body>
